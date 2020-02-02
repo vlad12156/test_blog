@@ -10,6 +10,12 @@
   </head>
 
   <body>
-    <%= yield %>
+    <%=link_to "Home page", root_path %>
+    <%=link_to "About us", pages_about_path %>
+    <%=link_to "Content", pages_about_path %>
+    <%=link_to "Contacts", pages_about_path %>
+    <%=
+
+    yield %>
   </body>
 </html>
